@@ -1,0 +1,26 @@
+﻿/*http://ux.episerver.com/*/
+
+.react-versiongadget {
+    overflow: auto;
+}
+
+.react-versionlist .version {
+    padding: 5px;
+}
+.react-versionlist .version.selected,
+.react-versionlist .version.selected:nth-child(odd) {
+    background: #c7d500;
+}
+.react-versionlist .version:nth-child(odd) {
+    background: #efefef;
+}
+.react-versionlist .status {
+    font-weight: bold;
+}
+.react-versionlist .saved-date {
+    float: right;
+    font-style: italic;
+}
+.react-versionlist .username {
+    display: block;
+}
